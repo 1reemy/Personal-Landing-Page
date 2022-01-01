@@ -1,0 +1,62 @@
+header{
+    display:grid;
+    grid-template-columns: 100px 800px 300px;
+    color:gold;
+    background-color: black;
+    padding: 20px 0px 20px 50px;
+}
+#pic{
+    background-color: greenyellow;
+    max-width: 80%;
+    border-radius: 100%;
+    border-style: solid;
+    display: flex;
+}
+#avatar{
+    width: 100%;
+    border-radius: 100%;
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin:0px 150px 0px 100px;
+}
+#services{
+    display: flex;
+    flex-direction: column;
+}
+p{
+    margin:0px 0px 0px 0px;
+}
+#portfolio{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 20px;
+}
+#one #two #three #four{
+    max-width: 20%;
+    border-radius: 20px;
+}
+#proof{
+    width:60%;
+    height:80%;
+    border-radius: 10px;
+}
+#work{
+    display: grid;
+    grid-area: 1/1/2/3;
+}
+#one{
+    display: grid;
+    justify-items: end;
+}
+#three{
+    display: grid;
+    justify-items: end;
+}
