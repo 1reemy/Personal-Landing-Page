@@ -4,6 +4,13 @@ header{
     color:gold;
     background-color: black;
     padding: 20px 0px 20px 50px;
+    font-size: 20px;
+}
+#title{    
+    font-family: sans-serif;
+}
+#title:hover{
+    font-family: 'bangers';
 }
 #pic{
     background-color: greenyellow;
@@ -19,6 +26,8 @@ header{
 nav{
     display: flex;
     justify-content: flex-end;
+    background-color: gold;
+    padding-right: 50px;
 }
 main{
     display: flex;
@@ -26,27 +35,41 @@ main{
     justify-content: center;
     align-items: flex-start;
     margin:0px 150px 0px 100px;
+    background-color: darkgreen;
+    color:gold;
+    padding-bottom: 20px;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+body{
+    background-color: rgb(44, 42, 42);
 }
 #services{
     display: flex;
     flex-direction: column;
+    padding: 0px 0px 20px 30px;
 }
 p{
     margin:0px 0px 0px 0px;
 }
 #portfolio{
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 30% 30% 30%;
     column-gap: 20px;
+    padding: 0px 0px 20px 30px;
 }
 #one #two #three #four{
     max-width: 20%;
     border-radius: 20px;
 }
 #proof{
-    width:60%;
+    width:80%;
     height:80%;
     border-radius: 10px;
+}
+#proof:hover{
+    box-shadow: -11px 14px 10px rgb(44,42,42);
+    transform: scale(1.05);
 }
 #work{
     display: grid;
@@ -54,9 +77,69 @@ p{
 }
 #one{
     display: grid;
-    justify-items: end;
+    grid-area: 2/2/3/3;
+}
+#two{
+    display: grid;
+    grid-area: 2/3/3/4;
 }
 #three{
     display: grid;
-    justify-items: end;
+    grid-area: 3/2/4/3;
+}
+#four{
+    display: grid;
+    grid-area: 3/3/4/4;
+}
+#social{
+    color:gold;
+}
+form{
+    display:grid;
+    grid-template-columns: 500px;
+    padding-left: 40%;
+}
+label{
+    display:grid;
+    grid-column: 1/2;
+    padding-bottom: 15px;
+}
+input{
+    display:grid;
+    grid-column:2/3;
+    justify-self: end;
+    width:380px;
+    height:20px;
+}
+textarea{
+    display: grid;
+    grid-column: 2/3;
+    justify-self: end;    
+}
+button{
+    font-size: 20px;
+    height:40px;
+    width:200px;
+    font-family: sans-serif;
+    background-color: #11139c;
+    color: white;
+}
+#submit{
+    padding-left: 40%;
+}
+#social{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#contact{
+    padding: 0px 0px 20px 30px;
+}
+a:hover{
+    color:gold;
+}
+#link{
+    padding: 15px 10px 0px 0px;
+    font-size: 18px;
+    font-family: sans-serif;
 }
