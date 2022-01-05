@@ -38,7 +38,7 @@ main{
     background-color: darkgreen;
     color:gold;
     padding-bottom: 20px;
-    font-size: 18px;
+    font-size: 22px;
     font-family: sans-serif;
 }
 body{
@@ -73,7 +73,7 @@ p{
 }
 #work{
     display: grid;
-    grid-area: 1/1/2/3;
+    grid-area: 1/1/2/4;
 }
 #one{
     display: grid;
@@ -135,11 +135,23 @@ button{
 #contact{
     padding: 0px 0px 20px 30px;
 }
-a:hover{
+#media:hover{
     color:gold;
+}
+a:link{
+    color:black;
+}
+a:visited{
+    color:rgb(199, 21, 119);
+}
+a:hover{
+    color:blue;
 }
 #link{
     padding: 15px 10px 0px 0px;
     font-size: 18px;
     font-family: sans-serif;
+}
+#navi{
+    padding-right: 10px;
 }
