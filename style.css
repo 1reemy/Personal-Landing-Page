@@ -184,7 +184,6 @@ a:hover{
     }
     main{
         font-size: 15px;
-        padding-right: 50px;
     }  
     #badges{
         transform:scale(1,0.75);
