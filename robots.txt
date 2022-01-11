@@ -1,0 +1,3 @@
+Sitemap:https://1reemy.github.io/kareem-campbell-webdeveloper/sitemap.xml
+User-agent:*
+Allow:/
